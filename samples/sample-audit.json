@@ -1,0 +1,193 @@
+{
+  "_NOTE": "FIXTURE / DEMO DATA. This file was hand-authored to match PreFlight's real AuditResult schema and illustrate report shape and severity classification. It was NOT generated from a live Playwright session against neemans.com, because this development environment has no outbound network access. Run `npm run dev` and audit a real neemans.com product/collection URL to produce a genuine live report — see README > Running a live Neeman's audit.",
+  "auditId": "sample-fixture-0001",
+  "url": "https://www.neemans.com/products/example-product",
+  "timestamp": "2026-09-16T09:12:00.000Z",
+  "durationMs": 18400,
+  "overallStatus": "READY_WITH_WARNINGS",
+  "score": 68,
+  "isFixtureData": true,
+  "scoreBreakdown": [
+    { "category": "TRACKING", "score": 78, "penalties": [{ "findingId": "f-dup-1", "severity": "HIGH", "points": 20 }] },
+    { "category": "ATTRIBUTION", "score": 90, "penalties": [] },
+    { "category": "TECHNICAL", "score": 92, "penalties": [{ "findingId": "f-console-1", "severity": "LOW", "points": 4 }] },
+    { "category": "UX", "score": 86, "penalties": [{ "findingId": "f-perf-1", "severity": "MEDIUM", "points": 10 }] },
+    { "category": "OVERALL", "score": 68, "penalties": [] }
+  ],
+  "summary": "READY WITH WARNINGS — 1 high-severity issue detected, most notably: Potential duplicate GA4 page_view.",
+  "httpStatus": 200,
+  "stages": [
+    { "key": "validating_url", "label": "Validating URL", "status": "done" },
+    { "key": "launching_browser", "label": "Launching browser", "status": "done" },
+    { "key": "loading_page", "label": "Loading page", "status": "done", "detail": "HTTP 200" },
+    { "key": "capturing_network", "label": "Capturing network activity", "status": "done", "detail": "14 tracking event(s) observed" },
+    { "key": "inspecting_analytics", "label": "Inspecting analytics", "status": "done", "detail": "GOOGLE_ANALYTICS_4, GOOGLE_TAG_MANAGER, META_PIXEL, SHOPIFY_ANALYTICS" },
+    { "key": "testing_interactions", "label": "Testing interactions", "status": "done", "detail": "3/4 interactions completed" },
+    { "key": "checking_runtime_health", "label": "Checking runtime health", "status": "done", "detail": "2 console issue(s), 0 network failure(s)" },
+    { "key": "detecting_duplicates", "label": "Detecting duplicates", "status": "done", "detail": "1 duplicate group(s) found" },
+    { "key": "calculating_readiness", "label": "Calculating readiness", "status": "done", "detail": "READY_WITH_WARNINGS (68/100)" },
+    { "key": "generating_report", "label": "Generating report", "status": "done" }
+  ],
+  "checks": [
+    {
+      "id": "f-page-ok",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "TECHNICAL",
+      "title": "Page loaded successfully (HTTP 200)",
+      "description": "The page returned a successful HTTP response.",
+      "whyItMatters": "Baseline reachability confirmed.",
+      "evidence": ["HTTP status: 200"],
+      "recommendation": "No action needed.",
+      "confidence": 0.95,
+      "relatedEventIds": []
+    },
+    {
+      "id": "f-pv-ok",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "TRACKING",
+      "title": "Page-view tracking confirmed on load",
+      "description": "2 page-view-equivalent event(s) observed during initial load.",
+      "whyItMatters": "Confirms baseline session tracking is functioning.",
+      "evidence": [
+        "GET request to www.google-analytics.com/g/collect at t+612ms",
+        "GET request to www.facebook.com/tr at t+780ms"
+      ],
+      "recommendation": "No action needed.",
+      "confidence": 0.85,
+      "relatedEventIds": ["ev-1", "ev-4"]
+    },
+    {
+      "id": "f-dup-1",
+      "status": "WARN",
+      "severity": "HIGH",
+      "category": "TRACKING",
+      "title": "Potential duplicate GOOGLE_ANALYTICS_4 page_view",
+      "description": "2 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "2 equivalent GOOGLE_ANALYTICS_4 \"page_view\" events observed",
+        "within 420ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.82,
+      "relatedEventIds": ["ev-1", "ev-2"]
+    },
+    {
+      "id": "f-atc-ok",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "TRACKING",
+      "title": "add_to_cart tracking confirmed",
+      "description": "3 event(s) observed following the add-to-cart interaction.",
+      "whyItMatters": "Confirms mid-funnel retargeting/optimization signals are functioning.",
+      "evidence": [
+        "dataLayer.push({event: \"add_to_cart\", ...}) observed at t+9120ms",
+        "GET request to www.facebook.com/tr at t+9340ms",
+        "POST request to monorail-edge.shopifysvc.com/unstable/produce_batch at t+9410ms"
+      ],
+      "recommendation": "No action needed.",
+      "confidence": 0.8,
+      "relatedEventIds": ["ev-6", "ev-7", "ev-8"]
+    },
+    {
+      "id": "f-console-1",
+      "status": "WARN",
+      "severity": "LOW",
+      "category": "TECHNICAL",
+      "title": "1 console error(s) logged",
+      "description": "A small number of console errors were logged during the session.",
+      "whyItMatters": "Low-severity, but worth a quick review to rule out affected functionality.",
+      "evidence": ["[console.error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT for a third-party pixel (t+9500ms)"],
+      "recommendation": "Review at your convenience; not likely to be blocking.",
+      "confidence": 0.4,
+      "relatedEventIds": ["c-1"]
+    },
+    {
+      "id": "f-perf-1",
+      "status": "WARN",
+      "severity": "MEDIUM",
+      "category": "UX",
+      "title": "Largest Contentful Paint is slow (4.1s)",
+      "description": "LCP exceeds the ~2.5s \"good\" threshold commonly used in Core Web Vitals guidance.",
+      "whyItMatters": "LCP is one of the strongest correlates of perceived load speed and bounce rate on paid landing pages.",
+      "evidence": ["LCP observed at 4100ms"],
+      "recommendation": "This is a pre-flight signal, not a substitute for a full Lighthouse/PageSpeed audit — run one for detailed remediation.",
+      "confidence": 0.55,
+      "relatedEventIds": []
+    },
+    {
+      "id": "f-consent-1",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "PRIVACY",
+      "title": "Consent banner detected",
+      "description": "A consent banner was detected and no tracking activity was observed prior to interacting with it in this session.",
+      "whyItMatters": "This is a technical observation only; PreFlight cannot determine whether this implementation satisfies applicable privacy requirements (e.g. GDPR/CCPA) in your jurisdiction.",
+      "evidence": ["Consent banner matched selector pattern: [class*=\"cookie\" i]"],
+      "recommendation": "Have legal/privacy stakeholders confirm the consent implementation meets applicable requirements.",
+      "confidence": 0.5,
+      "relatedEventIds": []
+    }
+  ],
+  "networkEvents": [
+    { "id": "ev-1", "platform": "GOOGLE_ANALYTICS_4", "eventName": "page_view", "eventType": "pageview", "timestamp": 612, "requestUrl": "https://www.google-analytics.com/g/collect?en=page_view&tid=G-XXXXXXX", "method": "GET", "status": 200, "payloadSummary": { "en": "page_view" }, "source": "network", "duplicateGroup": "dup-group-1", "evidence": ["GET request to www.google-analytics.com/g/collect at t+612ms"], "triggeredBy": "page_load" },
+    { "id": "ev-2", "platform": "GOOGLE_ANALYTICS_4", "eventName": "page_view", "eventType": "pageview", "timestamp": 1032, "requestUrl": "https://www.google-analytics.com/g/collect?en=page_view&tid=G-XXXXXXX", "method": "GET", "status": 200, "payloadSummary": { "en": "page_view" }, "source": "network", "duplicateGroup": "dup-group-1", "evidence": ["GET request to www.google-analytics.com/g/collect at t+1032ms"], "triggeredBy": "page_load" },
+    { "id": "ev-3", "platform": "GOOGLE_TAG_MANAGER", "eventName": "container_load", "eventType": "unknown", "timestamp": 340, "requestUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-XXXXXX", "method": "GET", "status": 200, "payloadSummary": {}, "source": "network", "duplicateGroup": null, "evidence": ["GET request to www.googletagmanager.com/gtm.js at t+340ms"], "triggeredBy": "page_load" },
+    { "id": "ev-4", "platform": "META_PIXEL", "eventName": "PageView", "eventType": "pageview", "timestamp": 780, "requestUrl": "https://www.facebook.com/tr?id=XXXX&ev=PageView", "method": "GET", "status": 200, "payloadSummary": { "ev": "PageView" }, "source": "network", "duplicateGroup": null, "evidence": ["GET request to www.facebook.com/tr at t+780ms"], "triggeredBy": "page_load" },
+    { "id": "ev-6", "platform": "GOOGLE_TAG_MANAGER", "eventName": "add_to_cart", "eventType": "conversion", "timestamp": 9120, "requestUrl": "(dataLayer)", "method": "PUSH", "status": null, "payloadSummary": { "value": "2999" }, "source": "dataLayer", "duplicateGroup": null, "evidence": ["dataLayer.push({event: \"add_to_cart\", ...}) observed at t+9120ms"], "triggeredBy": "add_to_cart" },
+    { "id": "ev-7", "platform": "META_PIXEL", "eventName": "AddToCart", "eventType": "conversion", "timestamp": 9340, "requestUrl": "https://www.facebook.com/tr?id=XXXX&ev=AddToCart", "method": "GET", "status": 200, "payloadSummary": { "ev": "AddToCart" }, "source": "network", "duplicateGroup": null, "evidence": ["GET request to www.facebook.com/tr at t+9340ms"], "triggeredBy": "add_to_cart" },
+    { "id": "ev-8", "platform": "SHOPIFY_ANALYTICS", "eventName": null, "eventType": "unknown", "timestamp": 9410, "requestUrl": "https://monorail-edge.shopifysvc.com/unstable/produce_batch", "method": "POST", "status": 200, "payloadSummary": {}, "source": "network", "duplicateGroup": null, "evidence": ["POST request to monorail-edge.shopifysvc.com/unstable/produce_batch at t+9410ms"], "triggeredBy": "add_to_cart" }
+  ],
+  "consoleIssues": [
+    { "id": "c-1", "type": "error", "message": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT for a third-party pixel", "timestamp": 9500 }
+  ],
+  "networkFailures": [],
+  "interactions": [
+    { "stage": "cta_click", "attempted": true, "succeeded": true, "elementDescription": "Shop Now", "timestamp": 1500 },
+    { "stage": "add_to_cart", "attempted": true, "succeeded": true, "elementDescription": "button:has-text(\"Add to Cart\")", "timestamp": 9100, "notes": "Clicked the first visible add-to-cart control. Cart was not proceeded to checkout." },
+    { "stage": "navigation", "attempted": false, "succeeded": false, "skippedReason": "Not tested — potentially destructive (checkout/payment/form submission is out of scope for a safe audit).", "timestamp": 9100 },
+    { "stage": "scroll", "attempted": true, "succeeded": true, "timestamp": 10200, "notes": "Scrolled ~60% down the page." }
+  ],
+  "performance": {
+    "domContentLoadedMs": 1380,
+    "loadEventMs": 2650,
+    "largestContentfulPaintMs": 4100,
+    "requestCount": 96,
+    "failedResourceCount": 0,
+    "transferredBytesApprox": 3200000,
+    "hasViewportMeta": true
+  },
+  "consent": {
+    "bannerDetected": true,
+    "bannerSelectorGuess": "[class*=\"cookie\" i]",
+    "trackingBeforeInteraction": false,
+    "note": "A consent banner was detected. This is a technical observation only — PreFlight does not evaluate legal compliance."
+  },
+  "screenshots": [],
+  "recommendations": [
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+    "This is a pre-flight signal, not a substitute for a full Lighthouse/PageSpeed audit — run one for detailed remediation.",
+    "Review at your convenience; not likely to be blocking."
+  ],
+  "aiInsights": {
+    "summary": "The page is largely ready for paid traffic: page-view and add-to-cart tracking are both firing correctly across GA4, Meta Pixel, and Shopify's native analytics. The one issue worth fixing before scaling spend is a duplicate GA4 page_view, which will inflate session counts and slightly distort attribution reporting.",
+    "rootCauseHypotheses": [
+      { "hypothesis": "GA4 is most likely configured to fire both through a direct gtag.js snippet and again through Google Tag Manager, producing two page_view hits per load.", "relatedFindingIds": ["f-dup-1"], "confidence": 0.7 }
+    ],
+    "recommendedActions": [
+      { "action": "Audit the theme's <head> and GTM container for a duplicate GA4 configuration tag and remove one.", "priority": "NOW", "relatedFindingIds": ["f-dup-1"] },
+      { "action": "Run a full Lighthouse pass on this PDP template to address the elevated LCP.", "priority": "SOON", "relatedFindingIds": ["f-perf-1"] }
+    ],
+    "confidence": 0.72,
+    "modelUsed": "claude-sonnet-4-6"
+  },
+  "environment": {
+    "browser": "Chromium (Playwright)",
+    "playwrightVersion": "1.46.0",
+    "executedAt": "2026-09-16T09:12:18.400Z"
+  }
+}
