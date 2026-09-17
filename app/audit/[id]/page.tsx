@@ -57,7 +57,7 @@ export default function AuditReportPage({ params }: { params: { id: string } }) 
 
       {audit.mainProblemPlain && (
         <section className="border-b border-ink-800 py-8">
-          <h2 className="mb-2 text-sm font-medium text-ink-200">In Plain English: What's Actually Wrong</h2>
+          <h2 className="mb-2 text-sm font-medium text-ink-200">In Plain English: What&apos;s Actually Wrong</h2>
           <div className="rounded-lg border border-ink-800 bg-ink-900/60 p-4">
             <p className="mb-2 text-sm font-medium text-ink-100">{audit.mainProblemPlain.headline}</p>
             <p className="leading-relaxed text-ink-300">{audit.mainProblemPlain.explanation}</p>
