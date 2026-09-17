@@ -1,0 +1,1717 @@
+{
+  "auditId": "d9a6ce1d-40d1-478f-b32c-7769dca992a3",
+  "url": "https://neemans.com/collections/women",
+  "timestamp": "2026-09-17T19:05:55.622Z",
+  "durationMs": 28124,
+  "overallStatus": "NOT_READY",
+  "score": 47,
+  "scoreBreakdown": [
+    {
+      "category": "TRACKING",
+      "score": 0,
+      "penalties": [
+        {
+          "findingId": "f2aec35b-fd95-4518-9486-006f77bda434",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "1ddf2ea8-bace-433e-9206-80f40786bd94",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "ca19688c-ee12-4444-9e00-e9f04dc88668",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "eac31b4b-dad5-4ddb-ab55-ac54cac4540f",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "4a63ba9c-57b3-45dd-b9eb-69761b7907e9",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "64717fe7-a25b-44df-a4ec-4cc736ad46c4",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "21b70a17-a612-4258-b2c1-99aa81bb7403",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "a8bb2c94-a93c-4725-ac14-1b30291ca291",
+          "severity": "HIGH",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "category": "TECHNICAL",
+      "score": 50,
+      "penalties": [
+        {
+          "findingId": "73721053-4a94-4bac-b671-1d4e4e838ec7",
+          "severity": "CRITICAL",
+          "points": 40
+        },
+        {
+          "findingId": "b365c845-479a-4a4a-b24d-b1af2d5c1c39",
+          "severity": "MEDIUM",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "category": "UX",
+      "score": 86,
+      "penalties": [
+        {
+          "findingId": "6d4a64be-27b0-45b2-b5f1-daefb614c3ea",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "9f5f5f4b-5ace-47ec-b08c-b9c8b2a4509c",
+          "severity": "LOW",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "category": "PRIVACY",
+      "score": 100,
+      "penalties": []
+    },
+    {
+      "category": "OVERALL",
+      "score": 47,
+      "penalties": [
+        {
+          "findingId": "f2aec35b-fd95-4518-9486-006f77bda434",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "1ddf2ea8-bace-433e-9206-80f40786bd94",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "ca19688c-ee12-4444-9e00-e9f04dc88668",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "eac31b4b-dad5-4ddb-ab55-ac54cac4540f",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "4a63ba9c-57b3-45dd-b9eb-69761b7907e9",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "64717fe7-a25b-44df-a4ec-4cc736ad46c4",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "21b70a17-a612-4258-b2c1-99aa81bb7403",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "73721053-4a94-4bac-b671-1d4e4e838ec7",
+          "severity": "CRITICAL",
+          "points": 40
+        },
+        {
+          "findingId": "b365c845-479a-4a4a-b24d-b1af2d5c1c39",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "a8bb2c94-a93c-4725-ac14-1b30291ca291",
+          "severity": "HIGH",
+          "points": 20
+        },
+        {
+          "findingId": "6d4a64be-27b0-45b2-b5f1-daefb614c3ea",
+          "severity": "MEDIUM",
+          "points": 10
+        },
+        {
+          "findingId": "9f5f5f4b-5ace-47ec-b08c-b9c8b2a4509c",
+          "severity": "LOW",
+          "points": 4
+        }
+      ]
+    }
+  ],
+  "summary": "NOT READY — 1 critical issue detected: 1 uncaught JavaScript exception(s) detected.",
+  "mainProblemPlain": {
+    "headline": "1 uncaught JavaScript exception(s) detected",
+    "explanation": "The page's own code is throwing errors while people use it. Think of it like a machine that occasionally jams while running — it might still mostly work, but things can silently break, including the very tracking scripts meant to measure success."
+  },
+  "httpStatus": 200,
+  "stages": [
+    {
+      "key": "validating_url",
+      "label": "Validating URL",
+      "status": "done",
+      "startedAt": 1789671955623,
+      "finishedAt": 1789671955645,
+      "detail": "Resolved to 23.227.38.65"
+    },
+    {
+      "key": "launching_browser",
+      "label": "Launching browser",
+      "status": "done",
+      "startedAt": 1789671955657,
+      "finishedAt": 1789671955668
+    },
+    {
+      "key": "loading_page",
+      "label": "Loading page",
+      "status": "done",
+      "startedAt": 1789671955679,
+      "finishedAt": 1789671983560,
+      "detail": "HTTP 200"
+    },
+    {
+      "key": "capturing_network",
+      "label": "Capturing network activity",
+      "status": "done",
+      "startedAt": 1789671983574,
+      "finishedAt": 1789671983589,
+      "detail": "35 tracking event(s) observed"
+    },
+    {
+      "key": "inspecting_analytics",
+      "label": "Inspecting analytics",
+      "status": "done",
+      "startedAt": 1789671983601,
+      "finishedAt": 1789671983611,
+      "detail": "GENERIC_ANALYTICS, GOOGLE_ADS, GOOGLE_ANALYTICS_4, GOOGLE_TAG_MANAGER, META_PIXEL, MICROSOFT_ADS"
+    },
+    {
+      "key": "testing_interactions",
+      "label": "Testing interactions",
+      "status": "done",
+      "startedAt": 1789671983620,
+      "finishedAt": 1789671983630,
+      "detail": "2/4 interactions completed"
+    },
+    {
+      "key": "checking_runtime_health",
+      "label": "Checking runtime health",
+      "status": "done",
+      "startedAt": 1789671983642,
+      "finishedAt": 1789671983657,
+      "detail": "32 console issue(s), 21 network failure(s)"
+    },
+    {
+      "key": "detecting_duplicates",
+      "label": "Detecting duplicates",
+      "status": "done",
+      "startedAt": 1789671983669,
+      "finishedAt": 1789671983686,
+      "detail": "7 duplicate group(s) found"
+    },
+    {
+      "key": "calculating_readiness",
+      "label": "Calculating readiness",
+      "status": "done",
+      "startedAt": 1789671983699,
+      "finishedAt": 1789671983713,
+      "detail": "NOT_READY (47/100)"
+    },
+    {
+      "key": "generating_report",
+      "label": "Generating report",
+      "status": "done",
+      "startedAt": 1789671983727,
+      "finishedAt": 1789671983746
+    }
+  ],
+  "checks": [
+    {
+      "id": "f9e4fe69-7f38-4f68-b091-95b4e059a8a7",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "TECHNICAL",
+      "title": "Page loaded successfully (HTTP 200)",
+      "description": "The page returned a successful HTTP response.",
+      "whyItMatters": "Baseline reachability confirmed.",
+      "evidence": [
+        "HTTP status: 200"
+      ],
+      "recommendation": "No action needed.",
+      "confidence": 0.95,
+      "relatedEventIds": []
+    },
+    {
+      "id": "e8767c53-33f5-44ad-8ed8-9bb2e95738e5",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "TRACKING",
+      "title": "Page-view tracking confirmed on load",
+      "description": "5 page-view-equivalent event(s) observed during initial load.",
+      "whyItMatters": "Confirms baseline session tracking is functioning.",
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+6883ms",
+        "POST request to analytics.google.com/g/collect at t+6885ms",
+        "POST request to analytics.google.com/g/collect at t+8816ms"
+      ],
+      "recommendation": "No action needed.",
+      "confidence": 0.85,
+      "relatedEventIds": [
+        "be88ef2d-b771-4b3c-b2fc-f5fd9c0f243c",
+        "7b4a8d18-4f21-4282-be02-50ff9acac7cb",
+        "b70f5b01-265f-466d-9df1-a93f38caaa99",
+        "ace37034-9a90-4361-91fa-984a5fd27356",
+        "18832cd7-8d09-46d2-9b87-ce80ca64b88d"
+      ]
+    },
+    {
+      "id": "fe3f7169-6b71-4b59-93ee-bfa8a6331169",
+      "status": "PASS",
+      "severity": "INFO",
+      "category": "TRACKING",
+      "title": "add_to_cart tracking confirmed",
+      "description": "4 event(s) observed following the add-to-cart interaction.",
+      "whyItMatters": "Confirms mid-funnel retargeting/optimization signals are functioning.",
+      "evidence": [
+        "POST request to www.facebook.com/tr/ at t+16313ms",
+        "dataLayer.push({event: \"gtm.scrollDepth\", ...}) observed at t+17494ms",
+        "dataLayer.push({event: \"Neemans_Opti_Tracking\", ...}) observed at t+17494ms"
+      ],
+      "recommendation": "No action needed.",
+      "confidence": 0.8,
+      "relatedEventIds": [
+        "3de196bc-16ff-47c5-98dd-a26ebc2960c7",
+        "b2450618-df6f-45f5-88dd-3485a6815b56",
+        "afcefc7a-e9a6-49e7-a2d2-870660c096ec",
+        "63645a62-031d-44b5-99ac-849efcb85774"
+      ]
+    },
+    {
+      "id": "f2aec35b-fd95-4518-9486-006f77bda434",
+      "status": "WARN",
+      "severity": "MEDIUM",
+      "category": "TRACKING",
+      "title": "Potential duplicate GENERIC_ANALYTICS unknown",
+      "description": "2 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "2 equivalent GENERIC_ANALYTICS \"unknown\" events observed",
+        "within 580ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.6863333333333335,
+      "relatedEventIds": [
+        "8a4e2599-0db6-483b-90ca-4e2f6d4fcdcc",
+        "7ceecab5-94aa-4472-9f43-3d79c2c54131"
+      ]
+    },
+    {
+      "id": "1ddf2ea8-bace-433e-9206-80f40786bd94",
+      "status": "WARN",
+      "severity": "HIGH",
+      "category": "TRACKING",
+      "title": "Potential duplicate GOOGLE_ADS conversion",
+      "description": "3 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "3 equivalent GOOGLE_ADS \"conversion\" events observed",
+        "within 1329ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.8114,
+      "relatedEventIds": [
+        "bc8ef00f-42ce-4e9d-b76d-bfba4171244c",
+        "718f0046-afa1-44c4-bad3-098e4b2e013c",
+        "70b50daf-f147-4703-924f-9e07656384ea"
+      ]
+    },
+    {
+      "id": "ca19688c-ee12-4444-9e00-e9f04dc88668",
+      "status": "WARN",
+      "severity": "HIGH",
+      "category": "TRACKING",
+      "title": "Potential duplicate GOOGLE_ANALYTICS_4 page_view",
+      "description": "2 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "2 equivalent GOOGLE_ANALYTICS_4 \"page_view\" events observed",
+        "within 2ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.7998666666666667,
+      "relatedEventIds": [
+        "be88ef2d-b771-4b3c-b2fc-f5fd9c0f243c",
+        "7b4a8d18-4f21-4282-be02-50ff9acac7cb"
+      ]
+    },
+    {
+      "id": "eac31b4b-dad5-4ddb-ab55-ac54cac4540f",
+      "status": "WARN",
+      "severity": "HIGH",
+      "category": "TRACKING",
+      "title": "Potential duplicate GOOGLE_ADS conversion",
+      "description": "3 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "3 equivalent GOOGLE_ADS \"conversion\" events observed",
+        "within 582ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.8612,
+      "relatedEventIds": [
+        "2e179758-9af4-4517-bce3-9b7f1fdf64b4",
+        "f0f006ca-58e6-4af2-8a69-3fefc3c96d20",
+        "de97dc88-779a-4d10-8ed7-c2e71e86fc7b"
+      ]
+    },
+    {
+      "id": "4a63ba9c-57b3-45dd-b9eb-69761b7907e9",
+      "status": "WARN",
+      "severity": "MEDIUM",
+      "category": "TRACKING",
+      "title": "Potential duplicate MICROSOFT_ADS uet_event",
+      "description": "3 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "3 equivalent MICROSOFT_ADS \"uet_event\" events observed",
+        "within 529ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.6897333333333334,
+      "relatedEventIds": [
+        "8bf9b335-ad56-4b5b-b345-1ea9db9a4fd6",
+        "3f39b29a-e094-45c6-a976-e041ad6a2d00",
+        "a199a2d3-3795-4806-80a8-8235a1d3b3ee"
+      ]
+    },
+    {
+      "id": "64717fe7-a25b-44df-a4ec-4cc736ad46c4",
+      "status": "WARN",
+      "severity": "MEDIUM",
+      "category": "TRACKING",
+      "title": "Potential duplicate GENERIC_ANALYTICS unknown",
+      "description": "2 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "2 equivalent GENERIC_ANALYTICS \"unknown\" events observed",
+        "within 1201ms of each other",
+        "during the same \"page_load\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.6449333333333334,
+      "relatedEventIds": [
+        "c1c11a1f-f227-4338-80f9-f21e2f96725f",
+        "2534f832-ca2d-48f1-8548-b92c788b2c60"
+      ]
+    },
+    {
+      "id": "21b70a17-a612-4258-b2c1-99aa81bb7403",
+      "status": "WARN",
+      "severity": "HIGH",
+      "category": "TRACKING",
+      "title": "Potential duplicate GOOGLE_TAG_MANAGER gtm.scrollDepth",
+      "description": "2 equivalent events were observed in rapid succession during the same interaction, which typically indicates the tag firing through more than one path (e.g. both a direct integration and Google Tag Manager).",
+      "whyItMatters": "Duplicate conversion events inflate reported conversions and corrupt ROAS/CPA calculations used to make budget decisions.",
+      "evidence": [
+        "2 equivalent GOOGLE_TAG_MANAGER \"gtm.scrollDepth\" events observed",
+        "within 0ms of each other",
+        "during the same \"scroll\" interaction",
+        "matching event parameters"
+      ],
+      "recommendation": "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+      "confidence": 0.76,
+      "relatedEventIds": [
+        "63262a16-57c5-401b-9a57-c548039725e3",
+        "6e067723-41b8-4453-ad25-b4924071b61f"
+      ]
+    },
+    {
+      "id": "73721053-4a94-4bac-b671-1d4e4e838ec7",
+      "status": "FAIL",
+      "severity": "CRITICAL",
+      "category": "TECHNICAL",
+      "title": "1 uncaught JavaScript exception(s) detected",
+      "description": "One or more uncaught exceptions occurred during page load or interaction, which can break page functionality including tracking scripts.",
+      "whyItMatters": "Uncaught exceptions can silently prevent tracking tags, add-to-cart handlers, or other on-page scripts from running at all.",
+      "evidence": [
+        "[pageerror] Failed to resolve module specifier \"vendor\". Relative references must start with either \"/\", \"./\", or \"../\". (t+9126ms)"
+      ],
+      "recommendation": "Investigate and fix the uncaught exception(s) before sending paid traffic; re-run the audit afterward.",
+      "confidence": 0.9,
+      "relatedEventIds": [
+        "8634023c-8314-4df4-9446-62ca7c8df16d"
+      ]
+    },
+    {
+      "id": "b365c845-479a-4a4a-b24d-b1af2d5c1c39",
+      "status": "WARN",
+      "severity": "MEDIUM",
+      "category": "TECHNICAL",
+      "title": "8 console error(s) logged during the session",
+      "description": "Multiple console errors were logged. Some may be benign (third-party script noise) but the volume warrants review.",
+      "whyItMatters": "Console error volume can be an early indicator of a fragile page, especially under real user network/device conditions.",
+      "evidence": [
+        "[console.error] An import map is added after module script load was triggered. (t+4032ms)",
+        "[console.error] Multiple import maps are not yet supported. https://crbug.com/927119 (t+4517ms)",
+        "[console.error] Multiple import maps are not yet supported. https://crbug.com/927119 (t+4860ms)",
+        "[console.error] Clear-Site-Data header on 'https://neemans.com/cart/update.js': Unrecognized type: \"prefetchCache\". (t+10988ms)",
+        "[console.error] Clear-Site-Data header on 'https://neemans.com/cart/update.js': Unrecognized type: \"prerenderCache\". (t+10988ms)"
+      ],
+      "recommendation": "Review console errors, particularly any originating from tracking or checkout-related scripts.",
+      "confidence": 0.5,
+      "relatedEventIds": [
+        "91699bf2-df35-4171-9762-4551f5008815",
+        "e6afa32a-ee93-4ca7-9505-3a718d30c072",
+        "c090542f-013a-4d99-87fa-a9e46d97f626",
+        "cac4130c-45ae-4305-8a14-61728dda34f7",
+        "47ef4580-cdc2-4a6e-be49-a19482ba885f",
+        "69397ad7-3a08-4c0e-93de-e61b96ab731b",
+        "f9997017-51aa-4ce9-9905-5e263dc12593",
+        "ac7113c0-aa49-41e1-9fad-06044a2b6323"
+      ]
+    },
+    {
+      "id": "a8bb2c94-a93c-4725-ac14-1b30291ca291",
+      "status": "FAIL",
+      "severity": "HIGH",
+      "category": "TRACKING",
+      "title": "7 tracking-related network request(s) failed",
+      "description": "One or more requests to known analytics/ad-platform domains failed or were blocked.",
+      "whyItMatters": "Failed tracking requests directly translate into missing or undercounted conversion data.",
+      "evidence": [
+        "POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=6531 → net::ERR_ABORTED (t+6989ms)",
+        "POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGAC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dp=%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&sid=1789671966&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&tfd=6514 → net::ERR_ABORTED (t+7003ms)",
+        "POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=3&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&en=view_item_list&_et=1657&tfd=8211 → net::ERR_ABORTED (t+9636ms)",
+        "POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=IAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=4&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=8215 → net::ERR_ABORTED (t+9636ms)",
+        "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VDE0ZFZ4LP&gtm=45je69g0v9249449940z8854378256za20gzb854378256zd854378256xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&are=1&cid=998500141.1789671967&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&_s=1&tag_exp=115616986~115938465~115938468~118012007~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789671970&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&en=page_view&_fv=1&_ss=1&tfd=10106 → net::ERR_ABORTED (t+10358ms)"
+      ],
+      "recommendation": "Check for ad-blocker interference, CSP restrictions, or misconfigured tag endpoints.",
+      "confidence": 0.7,
+      "relatedEventIds": [
+        "6616ec98-2724-4f20-89c4-aee4dff75b5b",
+        "996747df-acba-4321-a3b7-56e8d40e8609",
+        "0123e880-8c7d-419f-814f-aced2479e10f",
+        "0762718a-fffc-434c-a545-6986ac367cbf",
+        "cd95f2c3-3431-4a59-8886-128ce3874a9f",
+        "51c0a815-c99d-42a4-999e-7e84a784105c",
+        "dd6c30b3-d4c8-49a2-9aee-2150fd7e8713"
+      ]
+    },
+    {
+      "id": "6d4a64be-27b0-45b2-b5f1-daefb614c3ea",
+      "status": "WARN",
+      "severity": "MEDIUM",
+      "category": "UX",
+      "title": "Slow full page load (10.9s)",
+      "description": "The page load event fired significantly later than the ~3-4s threshold generally considered acceptable for paid landing pages.",
+      "whyItMatters": "Slow-loading landing pages increase bounce rate and reduce ad platform quality/relevance scores.",
+      "evidence": [
+        "window.onload fired at 10890ms"
+      ],
+      "recommendation": "Investigate render-blocking resources, large images, and third-party script load order.",
+      "confidence": 0.6,
+      "relatedEventIds": []
+    },
+    {
+      "id": "9f5f5f4b-5ace-47ec-b08c-b9c8b2a4509c",
+      "status": "WARN",
+      "severity": "LOW",
+      "category": "UX",
+      "title": "19 resource(s) failed to load",
+      "description": "One or more page resources (images, scripts, styles) failed to load.",
+      "whyItMatters": "Broken resources can degrade visual polish and trust signals on the landing page.",
+      "evidence": [
+        "19 failed resource request(s) recorded."
+      ],
+      "recommendation": "Review the network failures list for specific broken resources.",
+      "confidence": 0.5,
+      "relatedEventIds": []
+    },
+    {
+      "id": "505a680f-9a6d-4692-b85b-dd5b11ef4756",
+      "status": "NOT_TESTED",
+      "severity": "INFO",
+      "category": "PRIVACY",
+      "title": "Consent banner not detected",
+      "description": "No consent banner could be detected via common selectors. This does not confirm one is absent — some implementations are custom-built.",
+      "whyItMatters": "This is a technical observation, not legal advice. Absence of a detectable banner does not confirm compliance status.",
+      "evidence": [
+        "No element matching common consent-banner selectors was found."
+      ],
+      "recommendation": "If applicable regulations require a consent mechanism, confirm one exists and is technically implemented.",
+      "confidence": 0.4,
+      "relatedEventIds": []
+    }
+  ],
+  "networkEvents": [
+    {
+      "id": "8a4e2599-0db6-483b-90ca-4e2f6d4fcdcc",
+      "platform": "GENERIC_ANALYTICS",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 6254,
+      "requestUrl": "https://sc-static.net/scevent.min.js",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "19705ff7-9411-4389-8f76-48d2677ac94a",
+      "evidence": [
+        "GET request to recognized analytics host sc-static.net at t+6254ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "bc8ef00f-42ce-4e9d-b76d-bfba4171244c",
+      "platform": "GOOGLE_ADS",
+      "eventName": "conversion",
+      "eventType": "conversion",
+      "timestamp": 6390,
+      "requestUrl": "https://www.googleadservices.com/ccm/conversion/766814719/?random=1789671966408&cv=11&fst=1789671966408&fmt=3&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=TDqLCKGF3_YbEP_T0u0C&capi=1&gtm_ee=1&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&ec_mode=c&oid=GG_364613713.1789671966&oidsrc=3&ecsid2=1314686372.1789671966&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fwomen&category=acrcp_v1_512&em=tv.1&emd=tvd.1",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {
+        "en": "page_view"
+      },
+      "source": "network",
+      "duplicateGroup": "9974d26f-77e4-4975-88ea-4ee1ff94e0ad",
+      "evidence": [
+        "GET request to www.googleadservices.com/ccm/conversion/766814719/ at t+6390ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "718f0046-afa1-44c4-bad3-098e4b2e013c",
+      "platform": "GOOGLE_ADS",
+      "eventName": "conversion",
+      "eventType": "conversion",
+      "timestamp": 6626,
+      "requestUrl": "https://www.googleadservices.com/pagead/conversion/766814719/?random=1789671966408&cv=11&fst=1789671966408&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=TDqLCKGF3_YbEP_T0u0C&capi=1&gtm_ee=1&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&ec_mode=c&oid=GG_364613713.1789671966&oidsrc=3&ecsid2=1314686372.1789671966&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fwomen&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {
+        "en": "page_view"
+      },
+      "source": "network",
+      "duplicateGroup": "9974d26f-77e4-4975-88ea-4ee1ff94e0ad",
+      "evidence": [
+        "GET request to www.googleadservices.com/pagead/conversion/766814719/ at t+6626ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "7ceecab5-94aa-4472-9f43-3d79c2c54131",
+      "platform": "GENERIC_ANALYTICS",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 6834,
+      "requestUrl": "https://sc-static.net/scevent.min.js",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "19705ff7-9411-4389-8f76-48d2677ac94a",
+      "evidence": [
+        "GET request to recognized analytics host sc-static.net at t+6834ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "be88ef2d-b771-4b3c-b2fc-f5fd9c0f243c",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "page_view",
+      "eventType": "pageview",
+      "timestamp": 6883,
+      "requestUrl": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=6531",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-3042L5GP9T",
+        "cid": "998500141.1789671967",
+        "dl": "https://neemans.com/collections/women",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style"
+      },
+      "source": "network",
+      "duplicateGroup": "69784c1f-be24-4154-8b50-50a5e6740425",
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+6883ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "7b4a8d18-4f21-4282-be02-50ff9acac7cb",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "page_view",
+      "eventType": "pageview",
+      "timestamp": 6885,
+      "requestUrl": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGAC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dp=%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&sid=1789671966&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&tfd=6514",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-3042L5GP9T",
+        "cid": "998500141.1789671967",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style",
+        "dl": "https://neemans.com/collections/women",
+        "en": "page_view",
+        "ep.shopify_event_name": "page_viewed"
+      },
+      "source": "network",
+      "duplicateGroup": "69784c1f-be24-4154-8b50-50a5e6740425",
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+6885ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "a1606102-5c16-48cb-a0d2-eb6f6d81fc9e",
+      "platform": "GOOGLE_TAG_MANAGER",
+      "eventName": "container_load",
+      "eventType": "unknown",
+      "timestamp": 7717,
+      "requestUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-578LLRZ",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "GET request to www.googletagmanager.com/gtm.js at t+7717ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "70b50daf-f147-4703-924f-9e07656384ea",
+      "platform": "GOOGLE_ADS",
+      "eventName": "conversion",
+      "eventType": "conversion",
+      "timestamp": 7719,
+      "requestUrl": "https://www.google.com/pagead/1p-conversion/766814719/?random=2054986927&cv=11&fst=1789671966408&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=TDqLCKGF3_YbEP_T0u0C&capi=1&gtm_ee=1&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&ec_mode=c&oidsrc=3&ecsid2=1314686372.1789671966&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fwomen&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwn67VBhDls7jZwN-Iz7MBEjIAfZdETqLu-k_0Ng9MSnE98HWnTMI0jVf10JxKRnusgG8p7DfPg4FbLHUzfYJiaMKz1_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bECShR0cmlnZ2VyPWV2ZW50LXNvdXJjZVoDCgEBYgMKAQM&cerd=Cgy5674t2O2-LZ3ptzg&fsk=ChAI8J-u1QYQtvG-36mZy5d0EiwAtBP7OB2_zYkkNHBpwStt-TtTMw8lS-Ntp2sbMevrQML3gEhWdjYse1GP9RoCvKc&pscrd=IhMI6rv_zqf2lgMVB8cbAB1RBQEdOhRodHRwczovL25lZW1hbnMuY29tL0JXQ2hBSThKLXUxUVlRaVlUaWdaZXV4OEZ0RWkwQWtYeTY0U3FVSDFxa19jcDRVYS1WV2FwV25wb1ZQcXdlQTZLN2dGeGVWamFSRjctUDFpNHprTDRuWnRnegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS1AEAQM4h3DQsEjQci5UR4ReSMbF7QbB4Xd8e2DgdXvrO16thawcfaffCRrun7jqMV5i_g8aELBIrWNHqbnUVZwNH-uMZ9JRDsUWT2chPaVayQOrMXyUjxHbFIbH7acx_lQGSMrR4cSghOEPvqtHP9LF-MmS6xwqnwHEZCpzZmfzYo-ZdoofKn4qcsdyiD-tiZkBtLl4xrJeyzgVtdOnROPJu10KN3uoh9L4DujsMSJxb3kpEi8PAkJS-q4fPx_OsLxbpkRhAL47124gr1F-OI1pp_mFxEQ&random=3306199938",
+      "method": "GET",
+      "status": 302,
+      "payloadSummary": {
+        "en": "page_view",
+        "cid": "CAQS1AEAQM4h3DQsEjQci5UR4ReSMbF7QbB4Xd8e2DgdXvrO16thawcfaffCRrun7jqMV5i_g8aELBIr…"
+      },
+      "source": "network",
+      "duplicateGroup": "9974d26f-77e4-4975-88ea-4ee1ff94e0ad",
+      "evidence": [
+        "GET request to www.google.com/pagead/1p-conversion/766814719/ at t+7719ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "6c1d18e0-61af-4847-b27b-5d4d39612069",
+      "platform": "META_PIXEL",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 7756,
+      "requestUrl": "https://www.facebook.com/tr/",
+      "method": "POST",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to www.facebook.com/tr/ at t+7756ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "4ac1057a-6b12-489c-a1b8-c5ae52089455",
+      "platform": "GENERIC_ANALYTICS",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 7882,
+      "requestUrl": "https://sc-static.net/scevent.min.js",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "GET request to recognized analytics host sc-static.net at t+7882ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "4d2a49ac-d1b6-41cf-97a3-70e20b3c6ec3",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "view_item_list",
+      "eventType": "unknown",
+      "timestamp": 8816,
+      "requestUrl": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=3&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&en=view_item_list&_et=1657&tfd=8211",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-3042L5GP9T",
+        "cid": "998500141.1789671967",
+        "dl": "https://neemans.com/collections/women",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style",
+        "en": "view_item_list"
+      },
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+8816ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "b70f5b01-265f-466d-9df1-a93f38caaa99",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "page_view",
+      "eventType": "pageview",
+      "timestamp": 8816,
+      "requestUrl": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=IAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=4&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=8215",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-3042L5GP9T",
+        "cid": "998500141.1789671967",
+        "dl": "https://neemans.com/collections/women",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style"
+      },
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+8816ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "cb2aab38-baf0-4512-b56e-eb03f4dddc90",
+      "platform": "MICROSOFT_ADS",
+      "eventName": "uet_event",
+      "eventType": "unknown",
+      "timestamp": 9622,
+      "requestUrl": "https://www.clarity.ms/tag/ibzxcze2wv?ref=gtm",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "GET request to www.clarity.ms/tag/ibzxcze2wv at t+9622ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "0b964b92-cfaa-47bf-b9a5-69674b2b6abc",
+      "platform": "GOOGLE_ADS",
+      "eventName": "ad_request",
+      "eventType": "unknown",
+      "timestamp": 10230,
+      "requestUrl": "https://www.google.com/pagead/1p-user-list/766814719/?random=1789671968382&cv=11&fst=1789671600000&bg=ffffff&guid=ON&async=1&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CAI&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3KzHYjTWGN3ysfo5NwZavUMN3mO-xRlaoLrIKJmB8ALGNgq4cVymQqLv7t1NnbcLXCqbtno0g3z5-RSqVMEUaQaO_xczMmEnKHawCWf0zE4WR2TMTEcWE7g8dK0zLcLGUn_P_Lrv43sMNDs0QELrH-ntDy_IuV9iW6kCQcUGG2mFC1-JBRNzKlgzqfGI6b7C-3zF_0STCXviPUvxrf_EMKxNVeCMMS7UewVURkCTBm8tBBrVhm4My1Ky2YHCwln2XvdErDkOXYGYCcULEOUbdA&random=3491188284&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {
+        "cid": "CAQS1AEAQM4h3KzHYjTWGN3ysfo5NwZavUMN3mO-xRlaoLrIKJmB8ALGNgq4cVymQqLv7t1NnbcLXCqb…"
+      },
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "GET request to www.google.com/pagead/1p-user-list/766814719/ at t+10230ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "ace37034-9a90-4361-91fa-984a5fd27356",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "page_view",
+      "eventType": "pageview",
+      "timestamp": 10345,
+      "requestUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-VDE0ZFZ4LP&gtm=45je69g0v9249449940z8854378256za20gzb854378256zd854378256xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&are=1&cid=998500141.1789671967&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&_s=1&tag_exp=115616986~115938465~115938468~118012007~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789671970&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&en=page_view&_fv=1&_ss=1&tfd=10106",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-VDE0ZFZ4LP",
+        "cid": "998500141.1789671967",
+        "dl": "https://neemans.com/collections/women",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style",
+        "en": "page_view"
+      },
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to www.google-analytics.com/g/collect at t+10345ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "2e179758-9af4-4517-bce3-9b7f1fdf64b4",
+      "platform": "GOOGLE_ADS",
+      "eventName": "conversion",
+      "eventType": "conversion",
+      "timestamp": 11087,
+      "requestUrl": "https://www.googleadservices.com/ccm/conversion/766814719/?random=1789671971148&cv=11&fst=1789671971148&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=Lej_CISgxvoaEP_T0u0C&capi=1&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&bttype=purchase&value=0&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&oid=GG_418862521.1789671971&oidsrc=3&ecsid2=1314686372.1789671966&_tu=CBI&gcl_ctr=2~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {
+        "en": "conversion",
+        "value": "0"
+      },
+      "source": "network",
+      "duplicateGroup": "6bd592fc-44ce-415a-b79f-852d2dc6c161",
+      "evidence": [
+        "GET request to www.googleadservices.com/ccm/conversion/766814719/ at t+11087ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "f0f006ca-58e6-4af2-8a69-3fefc3c96d20",
+      "platform": "GOOGLE_ADS",
+      "eventName": "conversion",
+      "eventType": "conversion",
+      "timestamp": 11088,
+      "requestUrl": "https://www.googleadservices.com/pagead/conversion/766814719/?random=1789671971148&cv=11&fst=1789671971148&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=Lej_CISgxvoaEP_T0u0C&capi=1&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&bttype=purchase&value=0&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&oid=GG_418862521.1789671971&oidsrc=3&ecsid2=1314686372.1789671966&_tu=CBI&gcl_ctr=2~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {
+        "en": "conversion",
+        "value": "0"
+      },
+      "source": "network",
+      "duplicateGroup": "6bd592fc-44ce-415a-b79f-852d2dc6c161",
+      "evidence": [
+        "GET request to www.googleadservices.com/pagead/conversion/766814719/ at t+11088ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "8bf9b335-ad56-4b5b-b345-1ea9db9a4fd6",
+      "platform": "MICROSOFT_ADS",
+      "eventName": "uet_event",
+      "eventType": "unknown",
+      "timestamp": 11137,
+      "requestUrl": "https://c.clarity.ms/c.gif",
+      "method": "GET",
+      "status": 302,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "aa4472dd-db9f-4cd0-b6d4-bbc2d40b1922",
+      "evidence": [
+        "GET request to c.clarity.ms/c.gif at t+11137ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "3f39b29a-e094-45c6-a976-e041ad6a2d00",
+      "platform": "MICROSOFT_ADS",
+      "eventName": "uet_event",
+      "eventType": "unknown",
+      "timestamp": 11654,
+      "requestUrl": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=71F543373E6F4F16B46B1AABEEA9A227&MUID=2B0B5FCAB15F66022360481DB0F767E0",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "aa4472dd-db9f-4cd0-b6d4-bbc2d40b1922",
+      "evidence": [
+        "GET request to c.clarity.ms/c.gif at t+11654ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "a199a2d3-3795-4806-80a8-8235a1d3b3ee",
+      "platform": "MICROSOFT_ADS",
+      "eventName": "uet_event",
+      "eventType": "unknown",
+      "timestamp": 11666,
+      "requestUrl": "https://scripts.clarity.ms/0.8.70/clarity.js",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "aa4472dd-db9f-4cd0-b6d4-bbc2d40b1922",
+      "evidence": [
+        "GET request to scripts.clarity.ms/0.8.70/clarity.js at t+11666ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "de97dc88-779a-4d10-8ed7-c2e71e86fc7b",
+      "platform": "GOOGLE_ADS",
+      "eventName": "conversion",
+      "eventType": "conversion",
+      "timestamp": 11669,
+      "requestUrl": "https://www.google.com/pagead/1p-conversion/766814719/?random=951763605&cv=11&fst=1789671971148&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=Lej_CISgxvoaEP_T0u0C&capi=1&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&value=0&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&oidsrc=3&ecsid2=1314686372.1789671966&_tu=CBI&gcl_ctr=2~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwn67VBhDls7jZwN-Iz7MBEjIAfZdETk22N1Yw0NTGg0NO4mCd64ylMb-UVt5-pGXIkRY6pf-H3mzwF7SPdy1qxVJT5_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bECSiZ0cmlnZ2VyO25hdmlnYXRpb24tc291cmNlO2V2ZW50LXNvdXJjZVoDCgEBYgMKAQM&cerd=ChDZib4tgrC-Lbnrvi2d6bc4&fsk=ChAI8J-u1QYQtvG-36mZy5d0EiwAtBP7OLvwAcjnG-NRnQQRVFyy2L8zjQEU6iHeyf0GQtF_Bb0vxnkmF7eMOxoC76Q&pscrd=IhMIwfef0af2lgMVutgbAB3x4wl6OhRodHRwczovL25lZW1hbnMuY29tL0JXQ2hBSThKLXUxUVlRaVlUaWdaZXV4OEZ0RWkwQWtYeTY0YjB4WFZfT3AzZzZlZWhiMXpkRklWUmlHOHg0b2ttVDRsbENjZGc4SWpwVUVLY1kxUlFpTlhzegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS1AEAQM4h3OrKAWLgpa-0cF_WUC9CX26QMpVxhr8m17XO_x0t946ntE4RTmELXp9YcYG31zuJYNis0PgnBVs_PAu2BoP91XajR450TRxgh2dB1n3iT5Bs0HXqMuV3ZM0r6BUBotAgjTe7ewT7lO0HkpQSa7MKT4bVYLjFeRk6joccdOD6KXXhw8OaOyw7poeN8mIkyvZ0IcvZ2KJx-J4KWkJdxnRZgzRlubFoZqaVzexeBX_RkG18j0RqdFnOynpy0N718OGZ809olYoZ2jJHeAlUsniCAw&eitems=ChEI8J-u1QYQipW8mcf2hJ7eARIdAAtYBw3iQyVJrC2LH8x58a6XnHeyzmoy6cIBKi4&random=2985946861",
+      "method": "GET",
+      "status": 302,
+      "payloadSummary": {
+        "en": "conversion",
+        "value": "0",
+        "cid": "CAQS1AEAQM4h3OrKAWLgpa-0cF_WUC9CX26QMpVxhr8m17XO_x0t946ntE4RTmELXp9YcYG31zuJYNis…"
+      },
+      "source": "network",
+      "duplicateGroup": "6bd592fc-44ce-415a-b79f-852d2dc6c161",
+      "evidence": [
+        "GET request to www.google.com/pagead/1p-conversion/766814719/ at t+11669ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "c1c11a1f-f227-4338-80f9-f21e2f96725f",
+      "platform": "GENERIC_ANALYTICS",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 13007,
+      "requestUrl": "https://sc-static.net/scevent.min.js",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "05c9d4d6-5230-43e0-91d2-352d4491c79d",
+      "evidence": [
+        "GET request to recognized analytics host sc-static.net at t+13007ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "f388fed3-0993-49a4-81ca-1d034c043105",
+      "platform": "MICROSOFT_ADS",
+      "eventName": "uet_event",
+      "eventType": "unknown",
+      "timestamp": 13418,
+      "requestUrl": "https://z.clarity.ms/collect",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to z.clarity.ms/collect at t+13418ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "2534f832-ca2d-48f1-8548-b92c788b2c60",
+      "platform": "GENERIC_ANALYTICS",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 14208,
+      "requestUrl": "https://sc-static.net/scevent.min.js",
+      "method": "GET",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": "05c9d4d6-5230-43e0-91d2-352d4491c79d",
+      "evidence": [
+        "GET request to recognized analytics host sc-static.net at t+14208ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "18832cd7-8d09-46d2-9b87-ce80ca64b88d",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "page_view",
+      "eventType": "pageview",
+      "timestamp": 14210,
+      "requestUrl": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&_s=5&tfd=14057",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-3042L5GP9T",
+        "cid": "998500141.1789671967",
+        "dl": "https://neemans.com/collections/women",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style"
+      },
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+14210ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "b58c3c2a-64dc-4410-9eb8-a3b3ab92f9f2",
+      "platform": "META_PIXEL",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 14815,
+      "requestUrl": "https://www.facebook.com/tr/",
+      "method": "POST",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to www.facebook.com/tr/ at t+14815ms"
+      ],
+      "triggeredBy": "page_load"
+    },
+    {
+      "id": "3de196bc-16ff-47c5-98dd-a26ebc2960c7",
+      "platform": "META_PIXEL",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 16313,
+      "requestUrl": "https://www.facebook.com/tr/",
+      "method": "POST",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to www.facebook.com/tr/ at t+16313ms"
+      ],
+      "triggeredBy": "add_to_cart"
+    },
+    {
+      "id": "b2450618-df6f-45f5-88dd-3485a6815b56",
+      "platform": "GOOGLE_TAG_MANAGER",
+      "eventName": "gtm.scrollDepth",
+      "eventType": "unknown",
+      "timestamp": 17494,
+      "requestUrl": "(dataLayer)",
+      "method": "PUSH",
+      "status": null,
+      "payloadSummary": {
+        "gtm.scrollThreshold": "15",
+        "gtm.scrollUnits": "percent",
+        "gtm.scrollDirection": "vertical",
+        "gtm.triggers": "54378256_253",
+        "gtm.uniqueEventId": "75"
+      },
+      "source": "dataLayer",
+      "duplicateGroup": null,
+      "evidence": [
+        "dataLayer.push({event: \"gtm.scrollDepth\", ...}) observed at t+17494ms"
+      ],
+      "triggeredBy": "add_to_cart"
+    },
+    {
+      "id": "afcefc7a-e9a6-49e7-a2d2-870660c096ec",
+      "platform": "GOOGLE_TAG_MANAGER",
+      "eventName": "Neemans_Opti_Tracking",
+      "eventType": "unknown",
+      "timestamp": 17494,
+      "requestUrl": "(dataLayer)",
+      "method": "PUSH",
+      "status": null,
+      "payloadSummary": {
+        "category": "PLP",
+        "action": "PLP - ATC Click",
+        "label": "The Retro Collectible For Women : Pink",
+        "section_name": "undefined",
+        "page_path": "undefined",
+        "gtm.uniqueEventId": "76"
+      },
+      "source": "dataLayer",
+      "duplicateGroup": null,
+      "evidence": [
+        "dataLayer.push({event: \"Neemans_Opti_Tracking\", ...}) observed at t+17494ms"
+      ],
+      "triggeredBy": "add_to_cart"
+    },
+    {
+      "id": "63645a62-031d-44b5-99ac-849efcb85774",
+      "platform": "GOOGLE_TAG_MANAGER",
+      "eventName": "gtm.click",
+      "eventType": "unknown",
+      "timestamp": 17494,
+      "requestUrl": "(dataLayer)",
+      "method": "PUSH",
+      "status": null,
+      "payloadSummary": {
+        "gtm.element": "ref: <Node>",
+        "gtm.elementClasses": "nms-button__text",
+        "gtm.elementId": "",
+        "gtm.elementTarget": "",
+        "gtm.triggers": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
+        "gtm.elementUrl": "",
+        "gtm.uniqueEventId": "77"
+      },
+      "source": "dataLayer",
+      "duplicateGroup": null,
+      "evidence": [
+        "dataLayer.push({event: \"gtm.click\", ...}) observed at t+17494ms"
+      ],
+      "triggeredBy": "add_to_cart"
+    },
+    {
+      "id": "a1b7b20a-fc4c-49c1-bdc8-f56828a81d55",
+      "platform": "META_PIXEL",
+      "eventName": null,
+      "eventType": "unknown",
+      "timestamp": 17711,
+      "requestUrl": "https://www.facebook.com/tr/",
+      "method": "POST",
+      "status": 200,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to www.facebook.com/tr/ at t+17711ms"
+      ],
+      "triggeredBy": "scroll"
+    },
+    {
+      "id": "63262a16-57c5-401b-9a57-c548039725e3",
+      "platform": "GOOGLE_TAG_MANAGER",
+      "eventName": "gtm.scrollDepth",
+      "eventType": "unknown",
+      "timestamp": 18508,
+      "requestUrl": "(dataLayer)",
+      "method": "PUSH",
+      "status": null,
+      "payloadSummary": {
+        "gtm.scrollThreshold": "25",
+        "gtm.scrollUnits": "percent",
+        "gtm.scrollDirection": "vertical",
+        "gtm.triggers": "54378256_253",
+        "gtm.uniqueEventId": "78"
+      },
+      "source": "dataLayer",
+      "duplicateGroup": "830ee2bb-f7d6-4cf6-bf1a-f3b2bbffe999",
+      "evidence": [
+        "dataLayer.push({event: \"gtm.scrollDepth\", ...}) observed at t+18508ms"
+      ],
+      "triggeredBy": "scroll"
+    },
+    {
+      "id": "6e067723-41b8-4453-ad25-b4924071b61f",
+      "platform": "GOOGLE_TAG_MANAGER",
+      "eventName": "gtm.scrollDepth",
+      "eventType": "unknown",
+      "timestamp": 18508,
+      "requestUrl": "(dataLayer)",
+      "method": "PUSH",
+      "status": null,
+      "payloadSummary": {
+        "gtm.scrollThreshold": "50",
+        "gtm.scrollUnits": "percent",
+        "gtm.scrollDirection": "vertical",
+        "gtm.triggers": "54378256_253",
+        "gtm.uniqueEventId": "79"
+      },
+      "source": "dataLayer",
+      "duplicateGroup": "830ee2bb-f7d6-4cf6-bf1a-f3b2bbffe999",
+      "evidence": [
+        "dataLayer.push({event: \"gtm.scrollDepth\", ...}) observed at t+18508ms"
+      ],
+      "triggeredBy": "scroll"
+    },
+    {
+      "id": "78e84570-6e81-44f9-9627-4ca20624ca38",
+      "platform": "MICROSOFT_ADS",
+      "eventName": "uet_event",
+      "eventType": "unknown",
+      "timestamp": 20086,
+      "requestUrl": "https://z.clarity.ms/collect",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {},
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to z.clarity.ms/collect at t+20086ms"
+      ],
+      "triggeredBy": "scroll"
+    },
+    {
+      "id": "6f8f3469-67e7-4ddd-929a-c63d12c5d653",
+      "platform": "GOOGLE_ANALYTICS_4",
+      "eventName": "page_view",
+      "eventType": "pageview",
+      "timestamp": 21447,
+      "requestUrl": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&_s=6&tfd=21088",
+      "method": "POST",
+      "status": 204,
+      "payloadSummary": {
+        "v": "2",
+        "tid": "G-3042L5GP9T",
+        "cid": "998500141.1789671967",
+        "dl": "https://neemans.com/collections/women",
+        "dt": "Shop Women's Shoes Online with Up to 65% Off on Every Style"
+      },
+      "source": "network",
+      "duplicateGroup": null,
+      "evidence": [
+        "POST request to analytics.google.com/g/collect at t+21447ms"
+      ],
+      "triggeredBy": "scroll"
+    }
+  ],
+  "consoleIssues": [
+    {
+      "id": "91699bf2-df35-4171-9762-4551f5008815",
+      "type": "error",
+      "message": "An import map is added after module script load was triggered.",
+      "timestamp": 4032
+    },
+    {
+      "id": "e6afa32a-ee93-4ca7-9505-3a718d30c072",
+      "type": "error",
+      "message": "Multiple import maps are not yet supported. https://crbug.com/927119",
+      "timestamp": 4517
+    },
+    {
+      "id": "b3fae91d-8118-40ed-abe3-8ee5cb0776fb",
+      "type": "requestfailed",
+      "message": "Request failed: GET blob:https://neemans.com/1274b3ff-7df6-4b35-99c5-4d3de23a71e0 (net::ERR_ABORTED)",
+      "timestamp": 4567
+    },
+    {
+      "id": "c090542f-013a-4d99-87fa-a9e46d97f626",
+      "type": "error",
+      "message": "Multiple import maps are not yet supported. https://crbug.com/927119",
+      "timestamp": 4860
+    },
+    {
+      "id": "421e728d-3617-4f77-9273-4b20eab06c2c",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=1295985620.1789671966&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&tid=AW-766814719&en=page_view&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&scrsrc=www.googletagmanager.com&rnd=1363251166.1789671966&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&tft=1789671966450&tfd=6231&tids=AW-766814719&fmt=8 (net::ERR_ABORTED)",
+      "timestamp": 6875
+    },
+    {
+      "id": "d8d51b30-1f36-44c3-9477-0edbfab2908b",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://ad.doubleclick.net/ccm/s/collect?auid=1295985620.1789671966&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&fmt=8 (net::ERR_ABORTED)",
+      "timestamp": 6882
+    },
+    {
+      "id": "b686e645-2300-44ef-8f12-8ba0ac5535d9",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-J1P0Q1FSBN&gtm=45Pe69g0v9205647393za200zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&are=1&cid=998500141.1789671967&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=0&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120474863&dp=%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&sid=1789671966&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&tfd=6453 (net::ERR_ABORTED)",
+      "timestamp": 6986
+    },
+    {
+      "id": "a3c800c7-41d7-49b5-baa0-82cc212d2938",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=6531 (net::ERR_ABORTED)",
+      "timestamp": 6989
+    },
+    {
+      "id": "69652581-05a1-4974-87ae-9da994c50e0f",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGAC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dp=%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&sid=1789671966&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&tfd=6514 (net::ERR_ABORTED)",
+      "timestamp": 7003
+    },
+    {
+      "id": "767d638d-0215-4a27-befb-16a56574994a",
+      "type": "warning",
+      "message": "In a sandboxed environment, addEventListener may not behave as expected.",
+      "timestamp": 7077
+    },
+    {
+      "id": "1de4da7b-d8ed-4ac1-b4b2-562bce35efb5",
+      "type": "warning",
+      "message": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications.",
+      "timestamp": 7529
+    },
+    {
+      "id": "147506f4-29ef-4ca3-a0ac-bad52287ec61",
+      "type": "requestfailed",
+      "message": "Request failed: GET https://gum.as.criteo.com/fpm/sid?first_party_id=66f05fb2-9aea-485f-9981-7872d3bd0dd1&first_party_domain=neemans.com&first_party_name=shopify_client_id&topUrl=neemans.com&p=83465 (net::ERR_ABORTED)",
+      "timestamp": 7566
+    },
+    {
+      "id": "b0a03657-dd02-4311-b477-fb3a3270838c",
+      "type": "requestfailed",
+      "message": "Request failed: GET https://www.google.co.in/pagead/1p-conversion/766814719/?random=2054986927&cv=11&fst=1789671966408&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=TDqLCKGF3_YbEP_T0u0C&capi=1&gtm_ee=1&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&ec_mode=c&oidsrc=3&ecsid2=1314686372.1789671966&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fwomen&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwn67VBhDls7jZwN-Iz7MBEjIAfZdETqLu-k_0Ng9MSnE98HWnTMI0jVf10JxKRnusgG8p7DfPg4FbLHUzfYJiaMKz1_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bECShR0cmlnZ2VyPWV2ZW50LXNvdXJjZVoDCgEBYgMKAQM&cerd=Cgy5674t2O2-LZ3ptzg&fsk=ChAI8J-u1QYQtvG-36mZy5d0EiwAtBP7OB2_zYkkNHBpwStt-TtTMw8lS-Ntp2sbMevrQML3gEhWdjYse1GP9RoCvKc&is_vtc=1&cid=CAQS1AEAQM4h3DQsEjQci5UR4ReSMbF7QbB4Xd8e2DgdXvrO16thawcfaffCRrun7jqMV5i_g8aELBIrWNHqbnUVZwNH-uMZ9JRDsUWT2chPaVayQOrMXyUjxHbFIbH7acx_lQGSMrR4cSghOEPvqtHP9LF-MmS6xwqnwHEZCpzZmfzYo-ZdoofKn4qcsdyiD-tiZkBtLl4xrJeyzgVtdOnROPJu10KN3uoh9L4DujsMSJxb3kpEi8PAkJS-q4fPx_OsLxbpkRhAL47124gr1F-OI1pp_mFxEQ&random=3306199938&ipr=y&pscrd=IhMI6rv_zqf2lgMVB8cbAB1RBQEdOhRodHRwczovL25lZW1hbnMuY29tL0JXQ2hBSThKLXUxUVlRaVlUaWdaZXV4OEZ0RWkwQWtYeTY0U3FVSDFxa19jcDRVYS1WV2FwV25wb1ZQcXdlQTZLN2dGeGVWamFSRjctUDFpNHprTDRuWnRnegwICWIICAAQABgAIACCARNwAYgBAeIBAQLxAcmegah0ZO8_ (net::ERR_ABORTED)",
+      "timestamp": 8422
+    },
+    {
+      "id": "8634023c-8314-4df4-9446-62ca7c8df16d",
+      "type": "pageerror",
+      "message": "Failed to resolve module specifier \"vendor\". Relative references must start with either \"/\", \"./\", or \"../\".",
+      "timestamp": 9126
+    },
+    {
+      "id": "773f38ac-f680-457f-baa0-934bdfb600a5",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=1295985620.1789671966&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&en=page_view&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&scrsrc=www.googletagmanager.com&rnd=1363251166.1789671966&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dN2ZkMj.dNTU0Yz&gtm=45He69g0v854378256za200zd854378256xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120385422~120469145~120469153~120474864&tft=1789671968437&tfd=8218&fmt=8 (net::ERR_ABORTED)",
+      "timestamp": 9635
+    },
+    {
+      "id": "ca9ac0f5-7d9e-4436-ba9b-10a326e1b9df",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=1295985620.1789671966&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&tid=AW-766814719&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&scrsrc=www.googletagmanager.com&rnd=1363251166.1789671966&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=CAI&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&tft=1789671968443&tfd=8224&_gsid=AwKLSdR3RLxuPpc94pQ8dloUXSRmtzRfbw&tids=AW-766814719&fmt=8 (net::ERR_ABORTED)",
+      "timestamp": 9636
+    },
+    {
+      "id": "a5094a9e-27ea-4777-b44e-cf4c06c172bd",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://www.google.com/rmkt/collect/766814719/?random=1789671968382&cv=11&fst=1789671968382&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CAI&ept=68&gcp=5 (net::ERR_ABORTED)",
+      "timestamp": 9636
+    },
+    {
+      "id": "a4ac1316-cd9b-4b7f-ac7d-c8188004e8db",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=3&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&en=view_item_list&_et=1657&tfd=8211 (net::ERR_ABORTED)",
+      "timestamp": 9636
+    },
+    {
+      "id": "459ab814-be65-4271-94ba-fd11d963c94c",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=IAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=4&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=8215 (net::ERR_ABORTED)",
+      "timestamp": 9636
+    },
+    {
+      "id": "dad11cb5-5a98-414d-9df8-e5d1e82654d5",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://neemans.com/api/collect (net::ERR_ABORTED)",
+      "timestamp": 10011
+    },
+    {
+      "id": "e6dba86c-8010-4c4d-8900-cf49429a3785",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://www.google-analytics.com/g/collect?v=2&tid=G-VDE0ZFZ4LP&gtm=45je69g0v9249449940z8854378256za20gzb854378256zd854378256xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&are=1&cid=998500141.1789671967&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&_s=1&tag_exp=115616986~115938465~115938468~118012007~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789671970&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&en=page_view&_fv=1&_ss=1&tfd=10106 (net::ERR_ABORTED)",
+      "timestamp": 10358
+    },
+    {
+      "id": "cac4130c-45ae-4305-8a14-61728dda34f7",
+      "type": "error",
+      "message": "Clear-Site-Data header on 'https://neemans.com/cart/update.js': Unrecognized type: \"prefetchCache\".",
+      "timestamp": 10988
+    },
+    {
+      "id": "47ef4580-cdc2-4a6e-be49-a19482ba885f",
+      "type": "error",
+      "message": "Clear-Site-Data header on 'https://neemans.com/cart/update.js': Unrecognized type: \"prerenderCache\".",
+      "timestamp": 10988
+    },
+    {
+      "id": "69397ad7-3a08-4c0e-93de-e61b96ab731b",
+      "type": "error",
+      "message": "Clear-Site-Data header on 'https://neemans.com/cart/update.js': No recognized types specified.",
+      "timestamp": 10988
+    },
+    {
+      "id": "8d96579c-a576-4011-9336-dfed18392d8e",
+      "type": "requestfailed",
+      "message": "Request failed: GET https://www.google.co.in/pagead/1p-conversion/766814719/?random=951763605&cv=11&fst=1789671971148&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=Lej_CISgxvoaEP_T0u0C&capi=1&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&value=0&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&oidsrc=3&ecsid2=1314686372.1789671966&_tu=CBI&gcl_ctr=2~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwn67VBhDls7jZwN-Iz7MBEjIAfZdETk22N1Yw0NTGg0NO4mCd64ylMb-UVt5-pGXIkRY6pf-H3mzwF7SPdy1qxVJT5_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bECSiZ0cmlnZ2VyO25hdmlnYXRpb24tc291cmNlO2V2ZW50LXNvdXJjZVoDCgEBYgMKAQM&cerd=ChDZib4tgrC-Lbnrvi2d6bc4&fsk=ChAI8J-u1QYQtvG-36mZy5d0EiwAtBP7OLvwAcjnG-NRnQQRVFyy2L8zjQEU6iHeyf0GQtF_Bb0vxnkmF7eMOxoC76Q&is_vtc=1&cid=CAQS1AEAQM4h3OrKAWLgpa-0cF_WUC9CX26QMpVxhr8m17XO_x0t946ntE4RTmELXp9YcYG31zuJYNis0PgnBVs_PAu2BoP91XajR450TRxgh2dB1n3iT5Bs0HXqMuV3ZM0r6BUBotAgjTe7ewT7lO0HkpQSa7MKT4bVYLjFeRk6joccdOD6KXXhw8OaOyw7poeN8mIkyvZ0IcvZ2KJx-J4KWkJdxnRZgzRlubFoZqaVzexeBX_RkG18j0RqdFnOynpy0N718OGZ809olYoZ2jJHeAlUsniCAw&eitems=ChEI8J-u1QYQipW8mcf2hJ7eARIdAAtYBw3iQyVJrC2LH8x58a6XnHeyzmoy6cIBKi4&random=2985946861&ipr=y&pscrd=IhMIwfef0af2lgMVutgbAB3x4wl6OhRodHRwczovL25lZW1hbnMuY29tL0JXQ2hBSThKLXUxUVlRaVlUaWdaZXV4OEZ0RWkwQWtYeTY0YjB4WFZfT3AzZzZlZWhiMXpkRklWUmlHOHg0b2ttVDRsbENjZGc4SWpwVUVLY1kxUlFpTlhzegwICWIICAAQABgAIACCARNwAYgBAeIBAQLxAXdgrh2Ya-8_ (net::ERR_ABORTED)",
+      "timestamp": 12204
+    },
+    {
+      "id": "a14cd7d4-1553-4084-a22c-b63b04565081",
+      "type": "requestfailed",
+      "message": "Request failed: GET https://logisy.tech/app/lg_t.html?shop=babymarketstore.myshopify.com&referrer=&parentDomain=neemans.com (net::ERR_BLOCKED_BY_RESPONSE)",
+      "timestamp": 12443
+    },
+    {
+      "id": "f9997017-51aa-4ce9-9905-5e263dc12593",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 403 ()",
+      "timestamp": 12885
+    },
+    {
+      "id": "ac7113c0-aa49-41e1-9fad-06044a2b6323",
+      "type": "error",
+      "message": "Refused to display 'https://logisy.tech/' in a frame because it set 'X-Frame-Options' to 'sameorigin'.",
+      "timestamp": 12891
+    },
+    {
+      "id": "9b003d73-c139-4393-b2c1-11a423ebcaff",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&_s=5&tfd=14057 (net::ERR_ABORTED)",
+      "timestamp": 14258
+    },
+    {
+      "id": "99649aaa-b0ac-44bb-b36b-a5c154f22b2e",
+      "type": "warning",
+      "message": "Deprecated API for given entry type.",
+      "timestamp": 14265
+    },
+    {
+      "id": "42fad590-406f-4dc6-a5ca-4f88c18e1874",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://neemans.com/api/collect (net::ERR_ABORTED)",
+      "timestamp": 16642
+    },
+    {
+      "id": "9445831d-07e4-4b84-b309-7bb2389733bf",
+      "type": "requestfailed",
+      "message": "Request failed: POST https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&_s=6&tfd=21088 (net::ERR_ABORTED)",
+      "timestamp": 21447
+    }
+  ],
+  "networkFailures": [
+    {
+      "id": "ce1d82e5-fded-4bb0-8705-ab9508e78c44",
+      "url": "blob:https://neemans.com/1274b3ff-7df6-4b35-99c5-4d3de23a71e0",
+      "method": "GET",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 4566,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "e1b83057-6fd8-4fe0-9dc6-aeead0ec1201",
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=1295985620.1789671966&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&tid=AW-766814719&en=page_view&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&scrsrc=www.googletagmanager.com&rnd=1363251166.1789671966&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&tft=1789671966450&tfd=6231&tids=AW-766814719&fmt=8",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 6875,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "95f59422-5930-40cb-b99d-be3510ab692c",
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1295985620.1789671966&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&fmt=8",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 6882,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "443600d7-433c-470d-a060-c703ced073ef",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-J1P0Q1FSBN&gtm=45Pe69g0v9205647393za200zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&are=1&cid=998500141.1789671967&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=0&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120474863&dp=%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&sid=1789671966&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&tfd=6453",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 6986,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "6616ec98-2724-4f20-89c4-aee4dff75b5b",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=6531",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 6989,
+      "isTrackingRelated": true
+    },
+    {
+      "id": "996747df-acba-4321-a3b7-56e8d40e8609",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150za200zb9205647393zd9205647393xf1&_p=1789671964215&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGAC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dp=%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&sid=1789671966&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&tfd=6514",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 7003,
+      "isTrackingRelated": true
+    },
+    {
+      "id": "ff035326-4b45-44e5-a91c-41b8b656a5ee",
+      "url": "https://gum.as.criteo.com/fpm/sid?first_party_id=66f05fb2-9aea-485f-9981-7872d3bd0dd1&first_party_domain=neemans.com&first_party_name=shopify_client_id&topUrl=neemans.com&p=83465",
+      "method": "GET",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 7566,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "23262272-f62c-48af-a31d-b57564c854dc",
+      "url": "https://www.google.co.in/pagead/1p-conversion/766814719/?random=2054986927&cv=11&fst=1789671966408&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be69g0v885706882za200zb9205647393zd9205647393xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=TDqLCKGF3_YbEP_T0u0C&capi=1&gtm_ee=1&evnid=sh-b0c31366-7AB2-41C5-CE36-A4C100AF4913&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&ec_mode=c&oidsrc=3&ecsid2=1314686372.1789671966&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fwomen&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwn67VBhDls7jZwN-Iz7MBEjIAfZdETqLu-k_0Ng9MSnE98HWnTMI0jVf10JxKRnusgG8p7DfPg4FbLHUzfYJiaMKz1_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bECShR0cmlnZ2VyPWV2ZW50LXNvdXJjZVoDCgEBYgMKAQM&cerd=Cgy5674t2O2-LZ3ptzg&fsk=ChAI8J-u1QYQtvG-36mZy5d0EiwAtBP7OB2_zYkkNHBpwStt-TtTMw8lS-Ntp2sbMevrQML3gEhWdjYse1GP9RoCvKc&is_vtc=1&cid=CAQS1AEAQM4h3DQsEjQci5UR4ReSMbF7QbB4Xd8e2DgdXvrO16thawcfaffCRrun7jqMV5i_g8aELBIrWNHqbnUVZwNH-uMZ9JRDsUWT2chPaVayQOrMXyUjxHbFIbH7acx_lQGSMrR4cSghOEPvqtHP9LF-MmS6xwqnwHEZCpzZmfzYo-ZdoofKn4qcsdyiD-tiZkBtLl4xrJeyzgVtdOnROPJu10KN3uoh9L4DujsMSJxb3kpEi8PAkJS-q4fPx_OsLxbpkRhAL47124gr1F-OI1pp_mFxEQ&random=3306199938&ipr=y&pscrd=IhMI6rv_zqf2lgMVB8cbAB1RBQEdOhRodHRwczovL25lZW1hbnMuY29tL0JXQ2hBSThKLXUxUVlRaVlUaWdaZXV4OEZ0RWkwQWtYeTY0U3FVSDFxa19jcDRVYS1WV2FwV25wb1ZQcXdlQTZLN2dGeGVWamFSRjctUDFpNHprTDRuWnRnegwICWIICAAQABgAIACCARNwAYgBAeIBAQLxAcmegah0ZO8_",
+      "method": "GET",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 8422,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "6d41dbbd-6eb8-405b-97fa-e5b0a93cf853",
+      "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=1295985620.1789671966&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&en=page_view&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&scrsrc=www.googletagmanager.com&rnd=1363251166.1789671966&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dN2ZkMj.dNTU0Yz&gtm=45He69g0v854378256za200zd854378256xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120385422~120469145~120469153~120474864&tft=1789671968437&tfd=8218&fmt=8",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 9635,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "cdc973b9-8cba-4e1c-8570-fb031fe85890",
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=1295985620.1789671966&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&tid=AW-766814719&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&scrsrc=www.googletagmanager.com&rnd=1363251166.1789671966&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=CAI&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&tft=1789671968443&tfd=8224&_gsid=AwKLSdR3RLxuPpc94pQ8dloUXSRmtzRfbw&tids=AW-766814719&fmt=8",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 9636,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "65d21ebd-42a0-431d-8732-ed29ee39e6b4",
+      "url": "https://www.google.com/rmkt/collect/766814719/?random=1789671968382&cv=11&fst=1789671968382&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CAI&ept=68&gcp=5",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 9636,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "0123e880-8c7d-419f-814f-aced2479e10f",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=3&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&en=view_item_list&_et=1657&tfd=8211",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 9636,
+      "isTrackingRelated": true
+    },
+    {
+      "id": "0762718a-fffc-434c-a545-6986ac367cbf",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=IAAAAGQC&are=1&cid=998500141.1789671967&ec_mode=c&excid=shp.66f05fb2-9aea-485f-9981-7872d3bd0dd1&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&_s=4&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&tfd=8215",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 9636,
+      "isTrackingRelated": true
+    },
+    {
+      "id": "b50c348c-dda0-44de-8eea-553eb99c1f48",
+      "url": "https://neemans.com/api/collect",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 10011,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "cd95f2c3-3431-4a59-8886-128ce3874a9f",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-VDE0ZFZ4LP&gtm=45je69g0v9249449940z8854378256za20gzb854378256zd854378256xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&are=1&cid=998500141.1789671967&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&_s=1&tag_exp=115616986~115938465~115938468~118012007~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789671970&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&en=page_view&_fv=1&_ss=1&tfd=10106",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 10358,
+      "isTrackingRelated": true
+    },
+    {
+      "id": "608784e6-d6c5-488d-b6ac-005c40c61f29",
+      "url": "https://www.google.co.in/pagead/1p-conversion/766814719/?random=951763605&cv=11&fst=1789671971148&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be69g0v885706882z8854378256za200zb9205647393zd9205647393xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&rcb=18&label=Lej_CISgxvoaEP_T0u0C&capi=1&frm=0&tiba=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&value=0&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1295985620.1789671966&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&oidsrc=3&ecsid2=1314686372.1789671966&_tu=CBI&gcl_ctr=2~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwn67VBhDls7jZwN-Iz7MBEjIAfZdETk22N1Yw0NTGg0NO4mCd64ylMb-UVt5-pGXIkRY6pf-H3mzwF7SPdy1qxVJT5_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bECSiZ0cmlnZ2VyO25hdmlnYXRpb24tc291cmNlO2V2ZW50LXNvdXJjZVoDCgEBYgMKAQM&cerd=ChDZib4tgrC-Lbnrvi2d6bc4&fsk=ChAI8J-u1QYQtvG-36mZy5d0EiwAtBP7OLvwAcjnG-NRnQQRVFyy2L8zjQEU6iHeyf0GQtF_Bb0vxnkmF7eMOxoC76Q&is_vtc=1&cid=CAQS1AEAQM4h3OrKAWLgpa-0cF_WUC9CX26QMpVxhr8m17XO_x0t946ntE4RTmELXp9YcYG31zuJYNis0PgnBVs_PAu2BoP91XajR450TRxgh2dB1n3iT5Bs0HXqMuV3ZM0r6BUBotAgjTe7ewT7lO0HkpQSa7MKT4bVYLjFeRk6joccdOD6KXXhw8OaOyw7poeN8mIkyvZ0IcvZ2KJx-J4KWkJdxnRZgzRlubFoZqaVzexeBX_RkG18j0RqdFnOynpy0N718OGZ809olYoZ2jJHeAlUsniCAw&eitems=ChEI8J-u1QYQipW8mcf2hJ7eARIdAAtYBw3iQyVJrC2LH8x58a6XnHeyzmoy6cIBKi4&random=2985946861&ipr=y&pscrd=IhMIwfef0af2lgMVutgbAB3x4wl6OhRodHRwczovL25lZW1hbnMuY29tL0JXQ2hBSThKLXUxUVlRaVlUaWdaZXV4OEZ0RWkwQWtYeTY0YjB4WFZfT3AzZzZlZWhiMXpkRklWUmlHOHg0b2ttVDRsbENjZGc4SWpwVUVLY1kxUlFpTlhzegwICWIICAAQABgAIACCARNwAYgBAeIBAQLxAXdgrh2Ya-8_",
+      "method": "GET",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 12204,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "70fe787d-9462-4db1-9bb5-10b95f1dc2c3",
+      "url": "https://logisy.tech/app/lg_t.html?shop=babymarketstore.myshopify.com&referrer=&parentDomain=neemans.com",
+      "method": "GET",
+      "status": 403,
+      "timestamp": 12441,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "670745df-5807-4acd-9c08-a495fa6b2f62",
+      "url": "https://logisy.tech/app/lg_t.html?shop=babymarketstore.myshopify.com&referrer=&parentDomain=neemans.com",
+      "method": "GET",
+      "status": null,
+      "failureText": "net::ERR_BLOCKED_BY_RESPONSE",
+      "timestamp": 12443,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "51c0a815-c99d-42a4-999e-7e84a784105c",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&_s=5&tfd=14057",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 14258,
+      "isTrackingRelated": true
+    },
+    {
+      "id": "0df0c837-cdc3-4861-98d0-165e511aa0ec",
+      "url": "https://neemans.com/api/collect",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 16642,
+      "isTrackingRelated": false
+    },
+    {
+      "id": "dd6c30b3-d4c8-49a2-9aee-2150fd7e8713",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3042L5GP9T&gtm=45je69g0v881198150z8854378256za200zb9205647393zd9205647393xf1&_p=1789671964215&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=775843363&_eu=AAAAAGQC&are=1&cid=998500141.1789671967&frm=0&pscdl=noapi&rcb=8&sr=1366x900&uaa=x64&uab=64&uafvl=Chromium%3B128.0.6613.18%7CNot%253BA%253DBrand%3B24.0.0.0%7CHeadlessChrome%3B128.0.6613.18&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-gb&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789671966&sct=1&seg=0&dl=https%3A%2F%2Fneemans.com%2Fcollections%2Fwomen&dt=Shop%20Women%27s%20Shoes%20Online%20with%20Up%20to%2065%25%20Off%20on%20Every%20Style&_tu=AAI&_s=6&tfd=21088",
+      "method": "POST",
+      "status": null,
+      "failureText": "net::ERR_ABORTED",
+      "timestamp": 21447,
+      "isTrackingRelated": true
+    }
+  ],
+  "interactions": [
+    {
+      "stage": "cta_click",
+      "attempted": false,
+      "succeeded": false,
+      "skippedReason": "No recognizable primary CTA element was found on the page.",
+      "timestamp": 15774
+    },
+    {
+      "stage": "add_to_cart",
+      "attempted": true,
+      "succeeded": true,
+      "elementDescription": "button:has-text(\"Add to Cart\")",
+      "timestamp": 17494,
+      "notes": "Clicked the first visible add-to-cart control. Cart was not proceeded to checkout."
+    },
+    {
+      "stage": "navigation",
+      "attempted": false,
+      "succeeded": false,
+      "skippedReason": "Not tested — potentially destructive (checkout/payment/form submission is out of scope for a safe audit).",
+      "timestamp": 17494
+    },
+    {
+      "stage": "scroll",
+      "attempted": true,
+      "succeeded": true,
+      "timestamp": 18508,
+      "notes": "Scrolled ~60% down the page."
+    }
+  ],
+  "performance": {
+    "domContentLoadedMs": 10669,
+    "loadEventMs": 10890,
+    "largestContentfulPaintMs": null,
+    "requestCount": 444,
+    "transferredBytesApprox": 3747067,
+    "failedResourceCount": 19,
+    "hasViewportMeta": true
+  },
+  "consent": {
+    "bannerDetected": false,
+    "bannerSelectorGuess": null,
+    "trackingBeforeInteraction": true,
+    "note": "No consent banner could be detected via common selectors. This does not confirm one is absent — some implementations are custom-built."
+  },
+  "screenshots": [],
+  "recommendations": [
+    "Investigate and fix the uncaught exception(s) before sending paid traffic; re-run the audit afterward.",
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+    "Check for ad-blocker interference, CSP restrictions, or misconfigured tag endpoints.",
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate.",
+    "Check whether this tag is configured in both a native platform integration and GTM (or fired by two separate script instances), and de-duplicate."
+  ],
+  "aiInsights": null,
+  "isFixtureData": false,
+  "environment": {
+    "browser": "Chromium (Playwright)",
+    "playwrightVersion": "1.46.0",
+    "executedAt": "2026-09-17T19:06:23.746Z"
+  }
+}
